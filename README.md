@@ -1,6 +1,16 @@
 # QRShare
 
-Share files locally through a web server and a QR code displayed in the Terminal
+Share files locally through a web server and a QR code displayed in the Terminal.
+
+## Install (Linux)
+
+```sh
+git clone https://github.com/TheCheese42/qrshare
+cd qrshare
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Usage
 
